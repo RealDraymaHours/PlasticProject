@@ -1,8 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWall",
-  "eventList": [],
+  "name": "oWallNOSHOTGUN",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oShotgunShellHole","path":"objects/oShotgunShellHole/oShotgunShellHole.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -10,8 +12,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "oSolidPar",
-    "path": "objects/oSolidPar/oSolidPar.yy",
+    "name": "oWall",
+    "path": "objects/oWall/oWall.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -1,3 +1,5 @@
+depth = 250;
+
 switch(state)
 {
 	case(0):

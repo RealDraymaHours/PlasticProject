@@ -13,6 +13,7 @@
     {"name":"inst_3AF4F029","path":"rooms/Rm_Stairs/Rm_Stairs.yy",},
     {"name":"inst_C573332","path":"rooms/Rm_Stairs/Rm_Stairs.yy",},
     {"name":"inst_3A8C4C80","path":"rooms/Rm_Stairs/Rm_Stairs.yy",},
+    {"name":"inst_B126A72","path":"rooms/Rm_Stairs/Rm_Stairs.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -22,6 +23,7 @@
 -2147483648,-20,0,-19,-2147483648,-20,0,-231,-2147483648,1,0,-9,19,1,0,-284,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tiles","path":"tilesets/tiles/tiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"player_layer","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A8C4C80","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oNEXT","path":"objects/oNEXT/oNEXT.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.375,"x":304.0,"y":266.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B126A72","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oNEXT","path":"objects/oNEXT/oNEXT.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.375,"x":401.0,"y":262.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Terrain_layer","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D7D0568","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":9.0,"x":336.0,"y":144.0,},

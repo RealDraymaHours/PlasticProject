@@ -1,20 +1,22 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oShotgun",
+  "name": "oWallThatShotgunDestroys",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oShotgunShell","path":"objects/oShotgunShell/oShotgunShell.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "mics",
+    "path": "folders/Objects/mics.yy",
   },
-  "parentObjectId": null,
-  "persistent": true,
+  "parentObjectId": {
+    "name": "oWall",
+    "path": "objects/oWall/oWall.yy",
+  },
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -30,9 +32,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sShotgun",
-    "path": "sprites/sShotgun/sShotgun.yy",
+    "name": "sWallDestructable",
+    "path": "sprites/sWallDestructable/sWallDestructable.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

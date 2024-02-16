@@ -7,6 +7,14 @@ global.kAction = keyboard_check(vk_space);
 global.kActionRelease = keyboard_check_released(vk_space);
 global.kRun = keyboard_check(vk_shift);
 
+/*
+if global.kRun
+{
+	global.kAction = false;
+	global.kActionRelease = false;
+}
+*/
+
 #region Camera
 
 

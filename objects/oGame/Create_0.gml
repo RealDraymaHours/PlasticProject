@@ -12,6 +12,83 @@ global.kActionRelease = keyboard_check_released(vk_space);
 global.GameState = new GameStateCreate();
 global.font_main = font_add_sprite(sFontWhite, 32, true,1);
 
+
+function item(_name, _desc, _icon, _effect) constructor
+{
+	name = _name;
+	desc = _desc;
+	icon = _icon;
+	effect = _effect;
+}
+
+global.items =
+{
+	shotgun : new item(
+	"Shotgun",
+	"A stick that goes boom",
+	sPlayerBackIdle,
+	function(){}
+	),
+	fishingRod : new item(
+	"Fishing rod",
+	"A rod for fishing",
+	sPlayerBackIdle,
+	function(){}
+	),
+	cowboyHat : new item(
+	"Cowboy hat",
+	"PLACEHOLDER",
+	sPlayerBackIdle,
+	function(){}
+	),
+	noodles : new item(
+	"Plastic Noodles",
+	"PLACEHOLDER",
+	sPlayerBackIdle,
+	function(){}
+	),
+	bowl : new item(
+	"Bowl",
+	"PLACEHOLDER",
+	sPlayerBackIdle,
+	function(){}
+	),
+	Water : new item(
+	"Cold water",
+	"PLACEHOLDER",
+	sPlayerBackIdle,
+	function(){}
+	),
+	WaterWarm : new item(
+	"Warm water",
+	"PLACEHOLDER",
+	sPlayerBackIdle,
+	function(){}
+	),
+	videoGame : new item(
+	"Video Game",
+	"PLACEHOLDER",
+	sPlayerBackIdle,
+	function(){}
+	),
+	lighter : new item(
+	"Lighter",
+	"PLACEHOLDER",
+	sPlayerBackIdle,
+	function(){}
+	),
+	fish : new item(
+	"Fish",
+	"PLACEHOLDER",
+	sPlayerBackIdle,
+	function(){}
+	),
+}
+
+inventory = array_create(0);
+triggers = array_create(0);
+saveData = array_create(0);
+
 #region Camera
 
 application_surface_draw_enable(true);
