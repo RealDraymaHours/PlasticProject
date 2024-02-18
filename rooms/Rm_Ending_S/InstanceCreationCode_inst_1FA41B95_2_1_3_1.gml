@@ -1,0 +1,1 @@
+sysNPC.say.EndingS1.dialog();

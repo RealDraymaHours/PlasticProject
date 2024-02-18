@@ -14,9 +14,9 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"04e04312-0aab-4c98-b9af-3e42942ccd53",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1f237bed-67ae-4294-97cb-46311f450790",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e1804591-7d35-41b2-ab0a-d14df2c3fb94",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6536c9d-1a0b-43a2-a5f2-6527f5b23a3d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b1c4fc7a-3cb2-47ca-97df-04f965039d3d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"350bd492-3c87-485b-89ee-d67e1f4c3a29",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"afac7cdf-b135-455e-806f-611ff80e0d5b",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -59,9 +59,9 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"04e04312-0aab-4c98-b9af-3e42942ccd53","path":"sprites/sPlayerFrontIdle/sPlayerFrontIdle.yy",},},},"Disabled":false,"id":"7286ba4d-4fc9-4ddb-ab1f-63497a6ab9d6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1f237bed-67ae-4294-97cb-46311f450790","path":"sprites/sPlayerFrontIdle/sPlayerFrontIdle.yy",},},},"Disabled":false,"id":"52bf2365-b954-4748-98b0-b1ed88aa922a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e1804591-7d35-41b2-ab0a-d14df2c3fb94","path":"sprites/sPlayerFrontIdle/sPlayerFrontIdle.yy",},},},"Disabled":false,"id":"5b53e9e5-7782-4644-acf4-8d4608b69938","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b6536c9d-1a0b-43a2-a5f2-6527f5b23a3d","path":"sprites/sPlayerFrontIdle/sPlayerFrontIdle.yy",},},},"Disabled":false,"id":"8aa0b4a6-02e8-45ea-aa9f-178ef1435885","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b1c4fc7a-3cb2-47ca-97df-04f965039d3d","path":"sprites/sPlayerFrontIdle/sPlayerFrontIdle.yy",},},},"Disabled":false,"id":"aa8fec3d-879d-40cc-b229-b492bfb2b922","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"350bd492-3c87-485b-89ee-d67e1f4c3a29","path":"sprites/sPlayerFrontIdle/sPlayerFrontIdle.yy",},},},"Disabled":false,"id":"0a8022eb-807a-4b9c-bcab-11d01cb9b072","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"afac7cdf-b135-455e-806f-611ff80e0d5b","path":"sprites/sPlayerFrontIdle/sPlayerFrontIdle.yy",},},},"Disabled":false,"id":"7d973cee-69ae-4d23-9f4d-24399864d507","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

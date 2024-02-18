@@ -27,5 +27,28 @@ function pick_dialog(Dialog_id)
 		case("UncleYes"):
 			sysNPC.say.UncleYes.dialog();
 		break;
+		
+		case("FishYes"):
+			sysNPC.say.FishYes.dialog();
+		break;
+		case("FishNo"):
+		break;
+		case("FishBucket"):
+			sysNPC.say.GotWater.dialog();
+		break;
+		case("TableEat"):
+			if npcTable.waitCount = 7 && check_inventory(global.items.WaterWarm) && check_inventory(global.items.bowl)
+			{
+				instance_create_layer(oPlayer.x,oPlayer.y,"game_layer",oFadeToEnding).theEnding = Rm_Ending_S;		
+			}
+			else
+			{
+				instance_create_layer(oPlayer.x,oPlayer.y,"game_layer",oFadeToEnding).theEnding = Rm_Ending_E;	
+			}
+		break;
+		case("TableWait"):
+			npcTable.waitCount++;
+			sysNPC.say.TableWait.dialog();
+		break;
 	}
 }

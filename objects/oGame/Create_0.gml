@@ -3,6 +3,9 @@ global.kLeft = keyboard_check(ord("A"));
 global.kRight = keyboard_check(ord("D"));
 global.kDown = keyboard_check(ord("S"));
 
+global.kUpRelease = keyboard_check_released(ord("W"));
+global.kDownRelease = keyboard_check_released(ord("S"));
+
 global.StopMoving = false;
 
 global.kRun = keyboard_check(vk_shift);
@@ -26,61 +29,67 @@ global.items =
 	shotgun : new item(
 	"Shotgun",
 	"A stick that goes boom",
-	sPlayerBackIdle,
+	sInventoryShotgun,
 	function(){}
 	),
 	fishingRod : new item(
 	"Fishing rod",
 	"A rod for fishing",
-	sPlayerBackIdle,
+	sInventoryRod,
 	function(){}
 	),
 	cowboyHat : new item(
 	"Cowboy hat",
 	"PLACEHOLDER",
-	sPlayerBackIdle,
+	sInventoryHat,
 	function(){}
 	),
 	noodles : new item(
 	"Plastic Noodles",
 	"PLACEHOLDER",
-	sPlayerBackIdle,
+	sInventoryNoodles,
 	function(){}
 	),
 	bowl : new item(
 	"Bowl",
 	"PLACEHOLDER",
-	sPlayerBackIdle,
+	sInventoryBowl,
+	function(){}
+	),
+	Bucket : new item(
+	"Bucket",
+	"PLACEHOLDER",
+	sInventoryWaterEmpty,
 	function(){}
 	),
 	Water : new item(
 	"Cold water",
 	"PLACEHOLDER",
-	sPlayerBackIdle,
+	sInventoryWater,
 	function(){}
 	),
 	WaterWarm : new item(
 	"Warm water",
 	"PLACEHOLDER",
-	sPlayerBackIdle,
+	sInventoryWaterWarm,
 	function(){}
 	),
 	videoGame : new item(
 	"Video Game",
 	"PLACEHOLDER",
-	sPlayerBackIdle,
+	sInventoryGame,
 	function(){}
 	),
 	lighter : new item(
 	"Lighter",
 	"PLACEHOLDER",
-	sPlayerBackIdle,
+	sInventoryLighter,
 	function(){}
 	),
 	fish : new item(
 	"Fish",
 	"PLACEHOLDER",
-	sPlayerBackIdle,
+	sInventoryFish,
 	function(){}
 	),
 }

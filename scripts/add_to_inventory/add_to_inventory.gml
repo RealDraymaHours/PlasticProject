@@ -4,8 +4,22 @@ function add_to_inventory(thingToAdd)
 {
 	array_push(oGame.inventory,thingToAdd);
 	
-	if array_length(oGame) > 5
+	if array_length(oGame.inventory) > 5
 	{
-		//DO THING FOR ENDING		
+		instance_create(x,y,oFadeToEnding).theEnding = Rm_Ending_B;
 	}
+}
+
+function check_inventory(ThingToCheck)
+{
+	for (var i = 0; i < array_length(oGame.inventory); i++)
+	{
+		if ThingToCheck == oGame.inventory[i]
+		{
+			return true;
+			break;
+		}
+	}
+	
+	return false;
 }

@@ -1,0 +1,1 @@
+instance_create_layer(oPlayer.x,oPlayer.y,"game_layer",oFadeToEnding).theEnding = Rm_Ending_S;	

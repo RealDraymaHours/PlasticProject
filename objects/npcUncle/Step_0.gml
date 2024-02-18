@@ -3,6 +3,7 @@ depth = 250;
 switch(state)
 {
 	case(0):
+		oControlsShotgun.visible = false;
 		if distance_to_object(oPlayer) < 50
 		{
 			state = 1;	
@@ -21,6 +22,7 @@ switch(state)
 	break;
 	case(3):
 		sprite_index = sUncleBlood;
+		oControlsShotgun.visible = true;
 	break;
 
 }
